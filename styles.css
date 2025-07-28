@@ -55,6 +55,7 @@ ul {
     color: #E5E7EB;
     font-size: 18px;
     gap: 16px;
+    flex-shrink: 0;
    
 }
 
@@ -171,17 +172,17 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .cta-title {
-
     font-size: 24px;
     font-weight: 800;
 }
 
 .call-box>.sign-up {
     border: 2px solid #f9fAF8;
-    flex: auto;
+    flex: 1 0 auto;
 }
 
 
