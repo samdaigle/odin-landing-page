@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;900&display=swap');
 
 body {
     display: flex;
+    box-sizing: border-box;
     font-family: Roboto, sans-serif;
     flex-direction: column;
     height: 100vh;
@@ -66,7 +67,7 @@ ul {
 
 .sign-up {
 
-    width: 100px;
+    max-width: 120px;
     padding: 8px 16px;
     border: none;
     border-radius: 8px;
@@ -81,10 +82,14 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 32px
+}
+
+.title {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    padding: 32px
+    margin-bottom: 48px;
 }
 
 .container {
@@ -92,9 +97,8 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-.title {
-    margin-bottom: 32px;
+    gap: 52px;
+    margin-bottom: 60px;
 }
 
 .card {
@@ -105,15 +109,47 @@ ul {
     color:#E5E7EB;
     font-size: 18px;
     font-weight: 400;
-    width: 300px;
+    width: 170px;
     text-align: center;
 }
 
 .rectangle {
     width: 160px;
     height: 160px;
-    border: 5px solid #3882F6;
+    border: 4px solid #3882F6;
     border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+/* quote */
+
+.quote-box {
+    
+    background-color: #E5E7EB;
+    color: #1F2937;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 360px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    width: 800px;
+}
+
+.reference {
+    width: 800px;
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 
